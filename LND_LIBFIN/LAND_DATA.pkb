@@ -16,7 +16,7 @@ CREATE OR REPLACE PACKAGE BODY LND_LIBFIN.LAND_DATA
   AS
   BEGIN
     m_load_date := p_load_date;
-    m_date := TO_CHAR(p_load_date, m_date_format);  --Extracting the date
+    m_date := TO_CHAR(p_load_date, m_date_format);  --Extracting the date by Katleho
     m_fin_period := TO_CHAR(p_load_date, m_full_date_format);
     m_fin_month_cd := TO_CHAR(p_load_date, m_month_format);
     m_fin_year_cd := TO_CHAR(p_load_date, m_year_format);
