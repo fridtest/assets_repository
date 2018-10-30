@@ -11,6 +11,7 @@ CREATE OR REPLACE PACKAGE BODY LND_LIBFIN.LAND_DATA
   m_month_format CONSTANT VARCHAR2(2) := 'MM';
   m_year_format CONSTANT VARCHAR2(4) := 'YYYY';
   m_full_date_format CONSTANT VARCHAR2(10) := 'DD/MM/YYYY';
+  /* testing github*/
 
   PROCEDURE set_load_date(p_load_date DATE)
   AS
@@ -24,6 +25,7 @@ CREATE OR REPLACE PACKAGE BODY LND_LIBFIN.LAND_DATA
 
   FUNCTION get_load_date
     RETURN DATE
+  AS
   BEGIN
     RETURN m_load_date;
   END;
