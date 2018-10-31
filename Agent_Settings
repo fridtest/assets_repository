@@ -1,0 +1,194 @@
+Microsoft Windows [Version 10.0.16299.666]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\kzs0305>sqlplus custom/custom@imiuat
+
+SQL*Plus: Release 11.1.0.6.0 - Production on Wed Oct 31 14:43:31 2018
+
+Copyright (c) 1982, 2007, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning and Automatic Storage Management options
+
+SQL> select * from dual
+  2  ;
+
+D
+-
+X
+
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning and Automatic Storage Management options
+
+C:\Users\kzs0305>sqlplus custom/custom@163.202.3.128:1522/imidev
+
+SQL*Plus: Release 11.1.0.6.0 - Production on Wed Oct 31 14:48:13 2018
+
+Copyright (c) 1982, 2007, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, Automatic Storage Management and OLAP options
+
+SQL> /
+SP2-0103: Nothing in SQL buffer to run.
+SQL> exit
+Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.4.0 - 64bit Production
+With the Partitioning, Automatic Storage Management and OLAP options
+
+C:\Users\kzs0305>
+
+C:\Users\kzs0305> cd c:\agent\vsts-agent-win-x64-2.141.1
+
+c:\Agent\vsts-agent-win-x64-2.141.1>echo http://fw:80
+http://fw:80
+
+c:\Agent\vsts-agent-win-x64-2.141.1>echo http://fw:80 .proxy
+http://fw:80 .proxy
+
+c:\Agent\vsts-agent-win-x64-2.141.1>echo http://fw:80 > .proxy
+
+c:\Agent\vsts-agent-win-x64-2.141.1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 46E8-FDAF
+
+ Directory of c:\Agent\vsts-agent-win-x64-2.141.1
+
+2018/10/31  03:23 PM    <DIR>          .
+2018/10/31  03:23 PM    <DIR>          ..
+2018/10/31  03:23 PM                15 .proxy
+2018/10/31  03:20 PM    <DIR>          bin
+2018/10/31  03:19 PM             2 632 config.cmd
+2018/10/31  03:20 PM    <DIR>          externals
+2018/10/31  03:19 PM             2 592 run.cmd
+               3 File(s)          5 239 bytes
+               4 Dir(s)  281 339 072 512 bytes free
+
+c:\Agent\vsts-agent-win-x64-2.141.1>config.cmd
+
+>> Connect:
+
+Enter server URL > https://dev.azure.com/libertyholdings
+Enter authentication type (press enter for PAT) >
+Enter personal access token > ****************************************************
+Connecting to server ...
+
+>> Register Agent:
+
+Enter agent pool (press enter for default) > FRID
+Enter agent name (press enter for KZS0305) >
+Scanning for tool capabilities.
+Connecting to the server.
+Access denied. Katleho Senkoto needs Manage permissions for pool FRID to perform the action. For more information, contact the Azure DevOps Server administrator.
+Failed to add the agent.  Try again or ctrl-c to quit
+Enter agent name (press enter for KZS0305) >
+Scanning for tool capabilities.
+Connecting to the server.
+Access denied. Katleho Senkoto needs Manage permissions for pool FRID to perform the action. For more information, contact the Azure DevOps Server administrator.
+Failed to add the agent.  Try again or ctrl-c to quit
+Enter agent name (press enter for KZS0305) >
+Scanning for tool capabilities.
+Connecting to the server.
+Access denied. Katleho Senkoto needs Manage permissions for pool FRID to perform the action. For more information, contact the Azure DevOps Server administrator.
+Failed to add the agent.  Try again or ctrl-c to quit
+Enter agent name (press enter for KZS0305) > Scanning for tool capabilities.
+Exiting...
+Terminate batch job (Y/N)? y
+
+c:\Agent\vsts-agent-win-x64-2.141.1>config.cmd
+
+>> Connect:
+
+Enter server URL > https://libertyholdings.visualstudio.com
+Enter authentication type (press enter for PAT) >
+Enter personal access token > ****************************************************
+Connecting to server ...
+
+>> Register Agent:
+
+Enter agent pool (press enter for default) > FRID
+Enter agent name (press enter for KZS0305) >
+Scanning for tool capabilities.
+Connecting to the server.
+Access denied. Katleho Senkoto needs Manage permissions for pool FRID to perform the action. For more information, contact the Azure DevOps Server administrator.
+Failed to add the agent.  Try again or ctrl-c to quit
+Enter agent name (press enter for KZS0305) > Scanning for tool capabilities.
+Exiting...
+Terminate batch job (Y/N)? y
+
+c:\Agent\vsts-agent-win-x64-2.141.1>config.cmd
+
+>> Connect:
+
+Enter server URL > https://libertyholdings.visualstudio.com
+Enter authentication type (press enter for PAT) >
+Enter personal access token > ****************************************************
+Connecting to server ...
+
+>> Register Agent:
+
+Enter agent pool (press enter for default) > FRID
+Enter agent name (press enter for KZS0305) >
+Scanning for tool capabilities.
+Connecting to the server.
+Access denied. Kershen Naidu needs Manage permissions for pool FRID to perform the action. For more information, contact the Azure DevOps Server administrator.
+Failed to add the agent.  Try again or ctrl-c to quit
+Enter agent name (press enter for KZS0305) >
+Scanning for tool capabilities.
+Connecting to the server.
+Access denied. Kershen Naidu needs Manage permissions for pool FRID to perform the action. For more information, contact the Azure DevOps Server administrator.
+Failed to add the agent.  Try again or ctrl-c to quit
+Enter agent name (press enter for KZS0305) > Scanning for tool capabilities.
+Exiting...
+Terminate batch job (Y/N)? y
+
+c:\Agent\vsts-agent-win-x64-2.141.1>config.cmd
+
+>> Connect:
+
+Enter server URL > https://libertyholdings.visualstudio.com
+Enter authentication type (press enter for PAT) >
+Enter personal access token > ****************************************************
+Connecting to server ...
+
+>> Register Agent:
+
+Enter agent pool (press enter for default) > FRIDDOJO
+Enter agent name (press enter for KZS0305) >
+Scanning for tool capabilities.
+Connecting to the server.
+Successfully added the agent
+Testing agent connection.
+Enter work folder (press enter for _work) >
+2018-10-31 13:50:40Z: Settings Saved.
+Enter run agent as service? (Y/N) (press enter for N) > n
+Enter configure autologon and run agent on startup? (Y/N) (press enter for N) > n
+
+c:\Agent\vsts-agent-win-x64-2.141.1>dir
+ Volume in drive C has no label.
+ Volume Serial Number is 46E8-FDAF
+
+ Directory of c:\Agent\vsts-agent-win-x64-2.141.1
+
+2018/10/31  03:50 PM    <DIR>          .
+2018/10/31  03:50 PM    <DIR>          ..
+2018/10/31  03:23 PM                15 .proxy
+2018/10/31  03:20 PM    <DIR>          bin
+2018/10/31  03:19 PM             2 632 config.cmd
+2018/10/31  03:20 PM    <DIR>          externals
+2018/10/31  03:19 PM             2 592 run.cmd
+2018/10/31  03:39 PM    <DIR>          _diag
+               3 File(s)          5 239 bytes
+               5 Dir(s)  281 317 036 032 bytes free
+
+c:\Agent\vsts-agent-win-x64-2.141.1>run.cmd
+Scanning for tool capabilities.
+Connecting to the server.
+2018-10-31 13:51:23Z: Listening for Jobs
+2018-10-31 13:55:39Z: Running job: Job
+2018-10-31 13:56:22Z: Job Job completed with result: Failed
+2018-10-31 13:56:26Z: Running job: Job
+2018-10-31 13:56:59Z: Job Job completed with result: Failed
