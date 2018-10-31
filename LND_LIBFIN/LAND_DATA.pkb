@@ -11,12 +11,13 @@ CREATE OR REPLACE PACKAGE BODY LND_LIBFIN.LAND_DATA
   m_month_format CONSTANT VARCHAR2(2) := 'MM';
   m_year_format CONSTANT VARCHAR2(4) := 'YYYY';
   m_full_date_format CONSTANT VARCHAR2(10) := 'DD/MM/YYYY';
+  /* testing github*/
 
   PROCEDURE set_load_date(p_load_date DATE)
   AS
   BEGIN
     m_load_date := p_load_date;
-    m_date := TO_CHAR(p_load_date, m_date_format);  --Extracting the date
+    m_date := TO_CHAR(p_load_date, m_date_format);  --Extracting the date by Katleho...
     m_fin_period := TO_CHAR(p_load_date, m_full_date_format);
     m_fin_month_cd := TO_CHAR(p_load_date, m_month_format);
     m_fin_year_cd := TO_CHAR(p_load_date, m_year_format);
@@ -24,6 +25,7 @@ CREATE OR REPLACE PACKAGE BODY LND_LIBFIN.LAND_DATA
 
   FUNCTION get_load_date
     RETURN DATE
+  AS
   BEGIN
     RETURN m_load_date;
   END;
