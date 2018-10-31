@@ -1,3 +1,4 @@
+
 CREATE OR REPLACE PACKAGE LND_LIBFIN.LAND_DATA
   IS
   /******************************************************************************
@@ -12,7 +13,7 @@ CREATE OR REPLACE PACKAGE LND_LIBFIN.LAND_DATA
  ******************************************************************************/
   c_version CONSTANT NUMBER := 1;
   c_etl_id CONSTANT VARCHAR2(30) := UPPER('LAND_LIBFIN_DATA'); --See my comment
-
+--Linda was here 2018
   PROCEDURE set_load_date(p_load_date DATE);
 
   FUNCTION get_load_date
