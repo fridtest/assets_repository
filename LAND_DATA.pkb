@@ -47,7 +47,7 @@ CREATE OR REPLACE package body LND_ASISA.land_data AS
   -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
   procedure set_validation_descriptions(p_validation_descriptions in lnd_asisa.asisa_validation_emails.validation_descriptions%type) is
     begin
-      v_validation_descriptions :=p_validation_descriptions;
+      v_validation_descriptions :=p_validation_descriptions; --See my comment on this line of code
     end;
  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   procedure set_iscritical(p_run_validations in lnd_asisa.asisa_validation_emails.iscritical%type) is
