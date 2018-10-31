@@ -6,7 +6,9 @@ CREATE OR REPLACE PACKAGE BODY LND_MSTAR.XML_COMMON AS
     
     m_short_names t_varchar_varchar_arr;
     m_tables t_varchar_arr;
-    m_prefix varchar2(10) := null;
+    m_prefix varchar2(10) := null;L
+    /* BLABLABLABLABLABLABLABLABLABLBALBABLABLABLABLABLABLABLABLABLABLABLABLABLABBLABALABLABL */
+    /*PAAAAAAAAAAAAAAAAAUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUULLLLLLLLLLLLLLLLLLLLLLL  */
     
     
     procedure add_log(log_type varchar2, log_data varchar2) is
