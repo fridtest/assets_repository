@@ -11,7 +11,7 @@ CREATE OR REPLACE PACKAGE LND_LIBFIN.LAND_DATA
                                                  
  ******************************************************************************/
   c_version CONSTANT NUMBER := 1;
-  c_etl_id CONSTANT VARCHAR2(30) := UPPER('LAND_LIBFIN_DATA');
+  c_etl_id CONSTANT VARCHAR2(30) := UPPER('LAND_LIBFIN_DATA'); --See my comment
 
   PROCEDURE set_load_date(p_load_date DATE);
 
