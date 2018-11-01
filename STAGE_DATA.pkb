@@ -11,6 +11,12 @@ CREATE OR REPLACE PACKAGE BODY STG_SILICA.stage_data
   m_month_format CONSTANT VARCHAR2(2) := 'MM';
   m_year_format CONSTANT VARCHAR2(4) := 'YYYY';
   m_full_date_format CONSTANT VARCHAR2(10) := 'YYYY/MM/DD';
+  
+  /*knfsdl;fnlksdkgfksdbldslkdslgdsbgldgblsg
+  sddskbdgldsblgbgeblkgeslgsegblesblgs
+  folwfeleesogeoeofeofefoeoefeofefbvdbdks
+  ssd dsbjkgskdsbsbdlbflksbkldfblsbklfklsdfdsvsk kvjd kv dsv kdv dsvdkhv sdv s
+  Paul Comment Test*/
 
   PROCEDURE set_load_date(p_load_date DATE)
   AS
