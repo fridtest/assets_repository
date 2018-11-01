@@ -3,6 +3,6 @@
 
 select * from dual;
 select * from v$instance;
-select * from dba_object where rownum <10;
+select * from dba_objects where rownum <10;
 
 pause
