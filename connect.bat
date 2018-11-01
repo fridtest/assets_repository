@@ -1,2 +1,2 @@
-sqlplus  custom/custom@imiuat @C:\Agent\_work\1\s\run_script.bat
+sqlplus  custom/custom@imidev @C:\Agent\_work\1\s\run_script.bat
 
