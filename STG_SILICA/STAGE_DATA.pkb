@@ -15,6 +15,8 @@ CREATE OR REPLACE PACKAGE BODY STG_SILICA.stage_data
   ahahahhahahhahahahahahahhahahahahahaahahahahahahahahah
   balbalablablablabalbalablablalablbalablabalbalbabalbaba
   Paul Comment*/
+  
+  /*sdgsdgsgsdgdsgsdgdgsdg*/
 
   PROCEDURE set_load_date(p_load_date DATE)
   AS
