@@ -5,6 +5,6 @@ select * from dual;
 select * from v$instance;
 select * from dba_objects where rownum <10;
 
-LOAD_HIPORT.pkb
+@LOAD_HIPORT.pkb
 
 exit
